@@ -19,7 +19,7 @@ describe("My first test suite", function() {
             //This is to print in the console of the browser. We use the Then function becuse Cypress is asynchronous
             console.log('console print')
         })
-        //Let's find dynamically find the elements we want
+        //Let's find dynamically find the elements we want, Index is the number of iterations
         cy.get("@productslocator").find(".product").each(($el, index, $list) => {
 
             const textVeg = $el.find("h4.product-name").text()

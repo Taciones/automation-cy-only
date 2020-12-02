@@ -1,1 +1,10 @@
-{}
+{
+    "defaultCommandTimeout": 6000,
+    "pageLoadTimeout": 20000,
+    "modifyObstructiveCode": false,
+    "experimentalSourceRewriting":true,
+    "chromeWebSecurity": true,
+    "env": {
+        "url": "https://rahulshettyacademy.com"
+      }
+}

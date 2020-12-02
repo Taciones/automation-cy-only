@@ -25,8 +25,6 @@ cy.get('.cart-icon > img').click()
  
  
  
-//fixture
- 
 }  )
  
  
